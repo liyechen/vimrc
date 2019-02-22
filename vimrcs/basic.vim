@@ -20,7 +20,10 @@ filetype plugin indent on    " required
 colo gruvbox
 set background=dark
 set tabstop=4
-set nu!
+
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
 
 let mapleader = ","
 
