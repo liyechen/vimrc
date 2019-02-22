@@ -10,6 +10,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'morhetz/gruvbox'
+Plugin 'scrooloose/nerdtree'
+Plugin 'yegappan/mru'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -19,3 +21,10 @@ colo gruvbox
 set background=dark
 set tabstop=4
 set nu!
+
+let mapleader = ","
+
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
