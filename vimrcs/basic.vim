@@ -20,6 +20,9 @@ filetype plugin indent on    " required
 colo gruvbox
 set background=dark
 set tabstop=4
+set encoding=utf-8
+set fileencodings=utf-8
+syntax on
 
 " turn hybrid line numbers on
 set number relativenumber
