@@ -19,5 +19,5 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 " => air-line-themes
 """"""""""""""""""""""""""""""
-let g:airline_theme='murmur'
+let g:airline_theme='fairyfloss'
 
