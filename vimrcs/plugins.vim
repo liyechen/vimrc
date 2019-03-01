@@ -21,3 +21,8 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 let g:airline_theme='fairyfloss'
 
+
+""""""""""""""""""""""""""""""
+" => fugitive
+""""""""""""""""""""""""""""""
+map <leader>gb :Gblame<CR>
