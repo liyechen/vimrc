@@ -34,6 +34,10 @@ set backspace=indent,eol,start
 set number relativenumber
 set nu rnu
 
+set nobackup
+set noswapfile
+set noundofile
+
 syntax on
 
 let mapleader = ","
