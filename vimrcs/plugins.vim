@@ -8,6 +8,7 @@ let g:NERDTreeWinSize = 32
 map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
+let g:NERDTreeNodeDelimiter = "\u00a0"
 
 
 """"""""""""""""""""""""""""""
