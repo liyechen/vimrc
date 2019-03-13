@@ -24,11 +24,14 @@ filetype plugin indent on    " required
 
 colo gruvbox
 set background=dark
-set tabstop=4
 set encoding=utf-8
 set fileencodings=utf-8
-set shiftwidth=4
 set backspace=indent,eol,start
+set autoindent
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 " turn hybrid line numbers on
 set number relativenumber
