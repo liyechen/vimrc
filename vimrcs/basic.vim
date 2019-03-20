@@ -18,6 +18,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'w0rp/ale'
+Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -41,6 +42,8 @@ set nu rnu
 set nobackup
 set noswapfile
 set noundofile
+
+hi Identifier guifg=red
 
 syntax on
 
