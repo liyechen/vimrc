@@ -23,7 +23,7 @@ Plugin 'w0rp/ale'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colo gruvbox
+colo desert
 set background=dark
 set encoding=utf-8
 set fileencodings=utf-8
