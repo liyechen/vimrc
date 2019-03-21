@@ -24,7 +24,7 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colo desert
+colo gruvbox
 set background=dark
 set encoding=utf-8
 set fileencodings=utf-8
@@ -43,9 +43,11 @@ set nobackup
 set noswapfile
 set noundofile
 
-hi Identifier guifg=red
-
 syntax on
+
+nmap <C-b> :split<CR>
+nmap <C-v> :vsplit<CR>
+nmap <C-c> :close<CR>
 
 let mapleader = ","
 
@@ -53,3 +55,4 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
