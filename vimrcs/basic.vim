@@ -41,6 +41,7 @@ set number relativenumber
 set nu rnu
 
 set gfn=Monaco:h14
+set guicursor+=a:blinkon0
 
 set nobackup
 set noswapfile
