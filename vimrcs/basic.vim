@@ -19,6 +19,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'w0rp/ale'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,6 +39,8 @@ set shiftwidth=2
 " turn hybrid line numbers on
 set number relativenumber
 set nu rnu
+
+set gfn=Monaco:h14
 
 set nobackup
 set noswapfile
