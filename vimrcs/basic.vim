@@ -10,16 +10,16 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'morhetz/gruvbox'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'yegappan/mru'
 Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'leafgarland/typescript-vim'
-Plugin 'w0rp/ale'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'valloric/youcompleteme'
+Plugin 'scrooloose/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -40,7 +40,7 @@ set shiftwidth=2
 set number relativenumber
 set nu rnu
 
-set gfn=Monaco:h14
+set gfn=Monaco:h13
 set guicursor+=a:blinkon0
 
 set nobackup
