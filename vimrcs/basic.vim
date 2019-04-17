@@ -32,10 +32,9 @@ set encoding=utf-8
 set fileencodings=utf-8
 set backspace=indent,eol,start
 set autoindent
-set expandtab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set noexpandtab
+set ts=4
+set shiftwidth=4
 
 " turn hybrid line numbers on
 set number relativenumber
@@ -54,8 +53,6 @@ nmap <C-b> :split<CR>
 nmap <C-v> :vsplit<CR>
 nmap <C-c> :close<CR>
 
-let mapleader = ","
-
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
@@ -63,6 +60,8 @@ map <C-l> <C-W>l
 
 map <C-a> <C-W><
 map <C-e> <C-W>-
+
+let mapleader = ","
 
 " Useful mappings for managing tabs
 map <leader>tn :tabnew<cr>
