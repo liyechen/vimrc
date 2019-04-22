@@ -54,3 +54,8 @@ map <C-q> :lopen<CR>
 " => rust.vim
 """""""""""""""""""""""""""""
 let g:rustfmt_autosave = 1
+
+"""""""""""""""""""""""""""""
+" => ycm
+"""""""""""""""""""""""""""""
+let g:ycm_show_diagnostics_ui = 0
