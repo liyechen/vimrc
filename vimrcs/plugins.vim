@@ -37,9 +37,20 @@ let g:cpp_experimental_simple_template_highlight = 1
 let g:cpp_concepts_highlight = 1
 
 """""""""""""""""""""""""""""
-" => ale
+" => syntastic
 """""""""""""""""""""""""""""
-let g:ale_echo_msg_error_str = 'Error'
-let g:ale_echo_msg_warning_str = 'Warning'
-let g:ale_echo_msg_format = '[%severity%][%linter%] %s'
-let g:ale_c_parse_compile_commands = 1
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+map <C-q> :lopen<CR>
+
+
+"""""""""""""""""""""""""""""
+" => rust.vim
+"""""""""""""""""""""""""""""
+let g:rustfmt_autosave = 1
