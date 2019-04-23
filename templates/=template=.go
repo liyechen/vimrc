@@ -1,0 +1,8 @@
+//
+// %FFILE%
+//
+//
+
+package main
+
+%HERE%
