@@ -1,6 +1,7 @@
 #
 # %FFILE%
 # %USER%, %FDATE%
+# <%EMAIL%>
 #
 
 all:

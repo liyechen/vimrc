@@ -14,3 +14,9 @@
 	vim   # enter vim
 	:PluginInstall # install plugins
 	```
+
+4. change email  
+	remember to change your email in ***vimrcs/basic.vim***  
+   ```
+   let g:email="youremail@example.com"
+   ```
