@@ -8,6 +8,8 @@ source ~/.vim/vimrcs/basic.vim
 source ~/.vim/vimrcs/templates.vim
 source ~/.vim/vimrcs/plugins.vim
 
+source ~/.vim/after/plugin/NERD_tree.vim
+
 try
 source ~/.vim/my_configs.vim
 catch
