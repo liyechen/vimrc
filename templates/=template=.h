@@ -1,8 +1,7 @@
 /*
  * %FFILE%
  * Created by %USER%
- *
- * Distributed under terms of the %LICENSE% license.
+ * Time %YEAR%/%MONTH%/%DAY% %TIME%
  */
 
 #ifndef %GUARD%
