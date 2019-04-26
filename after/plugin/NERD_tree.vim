@@ -2,7 +2,7 @@ function EditNewFilename()
   let curDirNode = g:NERDTreeDirNode.GetSelected()
   let newNodeName = input(curDirNode.path.str() . g:NERDTreePath.Slash())
   exec ':wincmd l'
-  exec "edit " . newNodeName
+  exec "edit " . curDirNode.path.str() . g:NERDTreePath.Slash() . newNodeName
   exec "write " . curDirNode.path.str() . g:NERDTreePath.Slash() . newNodeName
   endfunction
 
