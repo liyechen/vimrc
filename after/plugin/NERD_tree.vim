@@ -1,8 +1,10 @@
 function EditNewFilename()
-  let l:filename = input("filename: ")
+  let curDirNode = g:NERDTreeDirNode.GetSelected()
+  let newNodeName = input(curDirNode.path.str() . g:NERDTreePath.Slash())
   exec ':wincmd l'
-  exec "edit " . l:filename
-endfunction
+  exec "edit " . newNodeName
+  exec "write " . curDirNode.path.str() . g:NERDTreePath.Slash() . newNodeName
+  endfunction
 
 call NERDTreeAddMenuItem({
   \ 'text': '(t)New with template',
