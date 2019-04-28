@@ -4,12 +4,11 @@ function EditNewFilename()
   exec ':wincmd l'
   exec "edit " . curDirNode.path.str() . g:NERDTreePath.Slash() . newNodeName
   exec "write " . curDirNode.path.str() . g:NERDTreePath.Slash() . newNodeName
-  endfunction
+endfunction
 
 call NERDTreeAddMenuItem({
   \ 'text': '(t)New with template',
   \ 'shortcut': 't',
   \ 'callback' : 'EditNewFilename' })
 
-autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
 
