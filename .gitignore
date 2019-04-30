@@ -1,2 +1,3 @@
 /bundle/*
 !/bundle/placeholder
+/view/*
