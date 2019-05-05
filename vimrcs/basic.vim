@@ -22,13 +22,13 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'valloric/youcompleteme'
+Plugin 'chase/focuspoint-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colo gruvbox
-set background=dark
+colo focuspoint
 set encoding=utf-8
 set fileencodings=utf-8
 set backspace=indent,eol,start
