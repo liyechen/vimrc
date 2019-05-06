@@ -33,7 +33,7 @@ set encoding=utf-8
 set fileencodings=utf-8
 set backspace=indent,eol,start
 set autoindent
-set noexpandtab
+set expandtab
 set ts=4
 set shiftwidth=4
 

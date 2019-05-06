@@ -61,3 +61,8 @@ let g:rustfmt_autosave = 1
 " => ycm
 """""""""""""""""""""""""""""
 let g:ycm_show_diagnostics_ui = 0
+
+"""""""""""""""""""""""""""""
+" => rust
+"""""""""""""""""""""""""""""
+let g:rust_recommended_style = 0
