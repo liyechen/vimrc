@@ -21,7 +21,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'valloric/youcompleteme'
-Plugin 'chase/focuspoint-vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 
 
