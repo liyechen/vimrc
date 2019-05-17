@@ -26,6 +26,7 @@ let g:airline_theme='fairyfloss'
 " => fugitive
 """"""""""""""""""""""""""""""
 map <leader>gb :Gblame<CR>
+map <leader>gd :Gvdiff<CR>
 
 
 """""""""""""""""""""""""""""
@@ -62,7 +63,19 @@ let g:rustfmt_autosave = 1
 """""""""""""""""""""""""""""
 let g:ycm_show_diagnostics_ui = 0
 
-"""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""
 " => rust
 """""""""""""""""""""""""""""
 let g:rust_recommended_style = 0
+
+""""""""""""""""""""""""""""
+" => cpp-enhanced
+"""""""""""""""""""""""""""""
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_experimental_template_highlight = 1
+let g:cpp_concepts_highlight = 1
+
+
+
