@@ -60,15 +60,18 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 map <C-a> <C-W><
-map <C-e> <C-W>-
+map <C-f> <C-W>+
+
 
 let mapleader = ","
 
 " Useful mappings for managing tabs
-map <leader>tn :tabnew<cr>
-map <leader>to :tabonly<cr>
-map <leader>tc :tabclose<cr>
-map <leader>tm :tabmove
-map <leader>t<leader> :tabnext<cr>
+map <leader>t :tabnew<cr>
+map <leader>o :tabonly<cr>
+map <leader>m :tabmove
+map <C-y> :tabp<cr>
+map <C-e> :tabn<cr>
+
+
 
 let g:email='gliyechen@hotmail.com'
