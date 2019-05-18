@@ -29,6 +29,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 colo gruvbox
+set bg=dark
 set encoding=utf-8
 set fileencodings=utf-8
 set backspace=indent,eol,start
