@@ -1,3 +1,4 @@
 /bundle/*
 !/bundle/placeholder
 /view/*
+vimrcs/leetcode.vim

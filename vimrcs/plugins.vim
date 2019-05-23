@@ -78,4 +78,11 @@ let g:cpp_experimental_template_highlight = 1
 let g:cpp_concepts_highlight = 1
 
 
+""""""""""""""""""""""""""""
+" => leetcode
+"""""""""""""""""""""""""""""
+nnoremap <leader>ll :LeetCodeList<cr>
+nnoremap <leader>lt :LeetCodeTest<cr>
+nnoremap <leader>ls :LeetCodeSubmit<cr>
+nnoremap <leader>li :LeetCodeSignIn<cr>
 

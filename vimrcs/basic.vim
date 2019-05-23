@@ -1,6 +1,4 @@
 set nocompatible
-filetype off
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -22,6 +20,7 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'valloric/youcompleteme'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'iandingx/leetcode.vim'
 
 
 " All of your Plugins must be added before the following line
