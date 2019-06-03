@@ -20,7 +20,6 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'valloric/youcompleteme'
 Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'iandingx/leetcode.vim'
 
 
 " All of your Plugins must be added before the following line
@@ -72,6 +71,6 @@ map <leader>m :tabmove
 map <C-y> :tabp<cr>
 map <C-e> :tabn<cr>
 
-
+set mouse=a
 
 let g:email='gliyechen@hotmail.com'

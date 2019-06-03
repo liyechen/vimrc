@@ -9,6 +9,7 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 let g:NERDTreeNodeDelimiter = "\u00a0"
+let NERDTreeMinimalUI=1
 
 """"""""""""""""""""""""""""""
 " => MRU plugin
@@ -76,13 +77,4 @@ let g:cpp_member_variable_highlight = 1
 let g:cpp_class_decl_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 let g:cpp_concepts_highlight = 1
-
-
-""""""""""""""""""""""""""""
-" => leetcode
-"""""""""""""""""""""""""""""
-nnoremap <leader>ll :LeetCodeList<cr>
-nnoremap <leader>lt :LeetCodeTest<cr>
-nnoremap <leader>ls :LeetCodeSubmit<cr>
-nnoremap <leader>li :LeetCodeSignIn<cr>
 
