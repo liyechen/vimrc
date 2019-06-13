@@ -26,8 +26,8 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+let g:gruvbox_contrast_dark='hard'
 colo gruvbox
-set bg=dark
 set encoding=utf-8
 set fileencodings=utf-8
 set backspace=indent,eol,start
