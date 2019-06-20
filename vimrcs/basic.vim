@@ -20,6 +20,8 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'valloric/youcompleteme'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'jparise/vim-graphql'
+Plugin 'w0rp/ale'
 
 
 " All of your Plugins must be added before the following line
