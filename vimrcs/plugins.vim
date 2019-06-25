@@ -86,5 +86,6 @@ let g:cpp_concepts_highlight = 1
 " => js
 """""""""""""""""""""""""""""
 " set filetypes as typescript.tsx
+autocmd BufNewFile,BufRead *.ts set syntax=typescript
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
 
