@@ -7,14 +7,23 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+" color themes
 Plugin 'morhetz/gruvbox'
+Plugin 'dracula/vim'
+
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'yegappan/mru'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
+" ts tsx
 Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'ayu-theme/ayu-vim'
+
 Plugin 'airblade/vim-gitgutter'
 Plugin 'rust-lang/rust.vim'
 Plugin 'scrooloose/syntastic'
@@ -30,6 +39,8 @@ filetype plugin indent on    " required
 
 let g:gruvbox_contrast_dark='hard'
 colo gruvbox
+set bg=dark
+set t_Co=256
 set encoding=utf-8
 set fileencodings=utf-8
 set backspace=indent,eol,start
