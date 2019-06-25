@@ -38,7 +38,6 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 let g:gruvbox_contrast_dark='hard'
-colo gruvbox
 set bg=dark
 set t_Co=256
 set encoding=utf-8
