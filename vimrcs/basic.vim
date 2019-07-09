@@ -29,7 +29,6 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'jparise/vim-graphql'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 
 " All of your Plugins must be added before the following line
