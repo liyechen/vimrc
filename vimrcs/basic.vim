@@ -26,11 +26,10 @@ Plugin 'ayu-theme/ayu-vim'
 
 Plugin 'airblade/vim-gitgutter'
 Plugin 'rust-lang/rust.vim'
-Plugin 'scrooloose/syntastic'
 Plugin 'valloric/youcompleteme'
-Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'jparise/vim-graphql'
-Plugin 'w0rp/ale'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 
 " All of your Plugins must be added before the following line
@@ -41,8 +40,8 @@ let g:gruvbox_contrast_dark='hard'
 colo gruvbox
 set bg=dark
 set t_Co=256
-set encoding=utf-8
-set fileencodings=utf-8
+set encoding=utf8
+set fileencodings=utf8
 set backspace=indent,eol,start
 set autoindent
 set expandtab
@@ -87,3 +86,5 @@ map <C-e> :tabn<cr>
 set mouse=a
 
 let g:email='gliyechen@hotmail.com'
+
+set updatetime=750
