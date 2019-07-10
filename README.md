@@ -3,7 +3,7 @@
 ## installation
 1. prepare **[Vundle](https://github.com/VundleVim/Vundle.vim)**
 	```
-	git clone https://github.com/VundleVim/Vundle.vim ~/.vim
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	```
 2. link vimrcs  
 	```
