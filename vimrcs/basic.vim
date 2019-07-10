@@ -86,4 +86,4 @@ set mouse=a
 
 let g:email='gliyechen@hotmail.com'
 
-set updatetime=800
+set updatetime=750
