@@ -1,39 +1,31 @@
 set nocompatible
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-
+call plug#begin('~/.vim/plugged')
 " color themes
-Plugin 'morhetz/gruvbox'
-Plugin 'dracula/vim'
+Plug 'morhetz/gruvbox'
+Plug 'dracula/vim'
 
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-Plugin 'yegappan/mru'
-Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'yegappan/mru'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" code complete
+Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
 
 " ts tsx
-Plugin 'leafgarland/typescript-vim'
-Plugin 'peitalin/vim-jsx-typescript'
-Plugin 'ayu-theme/ayu-vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'ayu-theme/ayu-vim'
 
-Plugin 'airblade/vim-gitgutter'
-Plugin 'rust-lang/rust.vim'
-Plugin 'valloric/youcompleteme'
-Plugin 'jparise/vim-graphql'
-Plugin 'ryanoasis/vim-devicons'
+Plug 'airblade/vim-gitgutter'
+Plug 'rust-lang/rust.vim'
+Plug 'jparise/vim-graphql'
+Plug 'ryanoasis/vim-devicons'
 
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
 colo gruvbox

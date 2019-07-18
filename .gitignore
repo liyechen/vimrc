@@ -2,3 +2,5 @@
 !/bundle/placeholder
 /view/*
 vimrcs/leetcode.vim
+/plugged/*
+/autoload/*
