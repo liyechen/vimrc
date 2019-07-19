@@ -20,3 +20,10 @@
    ```
    let g:email="youremail@example.com"
    ```
+
+   for neovim
+
+   ```
+   ln -s ~/.vimrc ~/.config/nvim/init.vim
+   ```
+

@@ -13,4 +13,5 @@ source ~/.vim/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+
 echo "Successfully!"
