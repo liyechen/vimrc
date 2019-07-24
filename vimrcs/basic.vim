@@ -77,5 +77,6 @@ map <C-e> :tabn<cr>
 set mouse=a
 
 let g:email='gliyechen@hotmail.com'
+let g:user='liyechen'
 
 set updatetime=800
