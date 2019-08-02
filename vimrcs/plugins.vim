@@ -100,3 +100,5 @@ let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-java', 'coc-rls'
 " autocmd BufNewFile,BufRead *.ts set syntax=typescript
 autocmd BufNewFile,BufRead *.ts set filetype=typescript
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
+au BufNewFile,BufRead *.ejs set filetype=html
+
