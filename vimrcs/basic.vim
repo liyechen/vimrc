@@ -11,6 +11,7 @@ Plug 'yegappan/mru'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'jiangmiao/auto-pairs'
 
 " code complete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
