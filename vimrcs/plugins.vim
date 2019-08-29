@@ -104,3 +104,4 @@ au BufNewFile,BufRead *.ejs set filetype=html
 """"""""""""""""""""""""""""
 " => auto-pairs
 """""""""""""""""""""""""""""
+let g:AutoPairsCenterLine = 0
