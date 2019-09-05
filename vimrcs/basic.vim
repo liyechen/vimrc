@@ -51,8 +51,6 @@ set nobackup
 set noswapfile
 set noundofile
 
-set clipboard+=unnamedplus
-
 syntax on
 
 nmap <C-b> :split<CR>
