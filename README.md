@@ -12,7 +12,7 @@
 3. install plugins  
 	```
 	vim   # enter vim
-	:PluginInstall # install plugins
+	:PlugInstall # install plugins
 	```
 
 4. change email  
