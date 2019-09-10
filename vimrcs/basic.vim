@@ -29,7 +29,7 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
-colo gruvbox
+colo dracula
 set bg=dark
 set t_Co=256
 set encoding=utf8
