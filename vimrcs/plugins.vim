@@ -15,7 +15,7 @@ let NERDTreeMinimalUI=1
 " => nerdcommenter
 """"""""""""""""""""""""""""""
 let g:NERDSpaceDelims = 1
-
+let g:NERDCompactSexyComs = 1
 
 """"""""""""""""""""""""""""""
 " => MRU plugin
