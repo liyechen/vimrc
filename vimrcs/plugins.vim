@@ -12,6 +12,12 @@ let g:NERDTreeNodeDelimiter = "\u00a0"
 let NERDTreeMinimalUI=1
 
 """"""""""""""""""""""""""""""
+" => nerdcommenter
+""""""""""""""""""""""""""""""
+let g:NERDSpaceDelims = 1
+
+
+""""""""""""""""""""""""""""""
 " => MRU plugin
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400
