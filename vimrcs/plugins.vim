@@ -18,6 +18,11 @@ let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 
 """"""""""""""""""""""""""""""
+" => tagbar
+""""""""""""""""""""""""""""""
+map <leader>t :TagbarToggle<cr>
+
+""""""""""""""""""""""""""""""
 " => MRU plugin
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400

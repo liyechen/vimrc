@@ -12,6 +12,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
+Plug 'majutsushi/tagbar'
 
 " code complete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
@@ -69,11 +70,11 @@ map <C-f> <C-W>+
 let mapleader = ","
 
 " Useful mappings for managing tabs
-map <leader>t :tabnew<cr>
-map <leader>o :tabonly<cr>
-map <leader>m :tabmove
-map <C-y> :tabp<cr>
-map <C-e> :tabn<cr>
+" map <leader>t :tabnew<cr>
+" map <leader>o :tabonly<cr>
+" map <leader>m :tabmove
+" map <C-y> :tabp<cr>
+" map <C-e> :tabn<cr>
 
 set mouse=a
 
