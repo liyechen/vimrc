@@ -42,8 +42,8 @@ set ts=4
 set shiftwidth=4
 
 " turn hybrid line numbers on
-set number relativenumber
-set nu
+set number
+set relativenumber
 
 set gfn=Monaco:h13
 set guicursor+=a:blinkon0
