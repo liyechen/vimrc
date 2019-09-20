@@ -63,6 +63,10 @@ let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 map <C-q> :lopen<CR>
 
+"""""""""""""""""""""""""""""
+" => Gitv
+"""""""""""""""""""""""""""""
+map <leader>gl :Gitv<CR>
 
 """""""""""""""""""""""""""""
 " => rust.vim
