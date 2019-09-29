@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 " color themes
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim'
+Plug 'NLKNguyen/papercolor-theme'
 
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
@@ -32,8 +33,8 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
-colo dracula
-set bg=dark
+set background=dark
+colorscheme PaperColor
 set t_Co=256
 set encoding=utf8
 set fileencodings=utf8
@@ -42,6 +43,7 @@ set autoindent
 set expandtab
 set ts=4
 set shiftwidth=4
+set fillchars+=vert:\|
 
 " turn hybrid line numbers on
 set number
