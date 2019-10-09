@@ -9,7 +9,7 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 let g:NERDTreeNodeDelimiter = "\u00a0"
-let NERDTreeMinimalUI=1
+let NERDTreeMinimalUI = 1
 
 """"""""""""""""""""""""""""""
 " => nerdcommenter
