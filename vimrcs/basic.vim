@@ -16,6 +16,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 Plug 'majutsushi/tagbar'
+Plug 'craigemery/vim-autotag'
 
 " code complete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
@@ -58,6 +59,8 @@ set noundofile
 
 syntax on
 
+nnoremap <C-y> <C-u>
+
 nmap <C-b> :split<CR>
 nmap <C-v> :vsplit<CR>
 nmap <C-c> :close<CR>
@@ -74,11 +77,11 @@ map <C-f> <C-W>+
 let mapleader = ","
 
 " Useful mappings for managing tabs
-" map <leader>t :tabnew<cr>
-" map <leader>o :tabonly<cr>
-" map <leader>m :tabmove
-" map <C-y> :tabp<cr>
-" map <C-e> :tabn<cr>
+map <leader>o :tabnew<cr>
+map <leader>p :tabonly<cr>
+map <leader>m :tabmove
+map <C-u> :tabp<cr>
+map <C-i> :tabn<cr>
 
 set mouse=a
 
