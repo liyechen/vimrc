@@ -17,6 +17,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 Plug 'majutsushi/tagbar'
 Plug 'craigemery/vim-autotag'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " code complete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
