@@ -116,7 +116,8 @@ autocmd BufNewFile,BufRead *.ts set filetype=typescript
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
 au BufNewFile,BufRead *.ejs set filetype=html
 
+
 """"""""""""""""""""""""""""
-" => auto-pairs
+" => auto pairs
 """""""""""""""""""""""""""""
-let g:AutoPairsCenterLine = 0
+let g:AutoPairsMultilineClose = 0

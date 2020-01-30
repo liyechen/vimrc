@@ -14,10 +14,12 @@ Plug 'tpope/vim-fugitive'
 Plug 'gregsexton/gitv', {'on': ['Gitv']}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'jiangmiao/auto-pairs'
 Plug 'majutsushi/tagbar'
 Plug 'craigemery/vim-autotag'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 
 " code complete
 Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
@@ -60,8 +62,6 @@ set noundofile
 
 syntax on
 
-nnoremap <C-y> <C-u>
-
 nmap <C-b> :split<CR>
 nmap <C-v> :vsplit<CR>
 nmap <C-c> :close<CR>
@@ -74,15 +74,18 @@ map <C-l> <C-W>l
 map <C-a> <C-W><
 map <C-f> <C-W>+
 
+set clipboard=unnamedplus
 
 let mapleader = ","
+
+nnoremap <C-m> <C-]>
 
 " Useful mappings for managing tabs
 map <leader>o :tabnew<cr>
 map <leader>p :tabonly<cr>
 map <leader>m :tabmove
-map <C-u> :tabp<cr>
-map <C-i> :tabn<cr>
+map <C-[> :tabp<cr>
+map <C-]> :tabn<cr>
 
 set mouse=a
 
