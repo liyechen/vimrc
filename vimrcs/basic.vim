@@ -49,6 +49,8 @@ set ts=4
 set shiftwidth=4
 set fillchars+=vert:\|
 
+set nowrap
+
 " turn hybrid line numbers on
 set number
 set relativenumber
