@@ -49,7 +49,6 @@ set ts=4
 set shiftwidth=4
 set fillchars+=vert:\|
 
-set nowrap
 
 " turn hybrid line numbers on
 set number
@@ -95,3 +94,6 @@ let g:email='gliyechen@hotmail.com'
 let g:user='liyechen'
 
 set updatetime=800
+
+hi Normal guibg=NONE ctermbg=NONE
+
