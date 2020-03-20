@@ -38,7 +38,7 @@ call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
 set background=dark
-colorscheme PaperColor
+colorscheme gruvbox
 set t_Co=256
 set encoding=utf8
 set fileencodings=utf8
@@ -96,4 +96,6 @@ let g:user='liyechen'
 set updatetime=800
 
 hi Normal guibg=NONE ctermbg=NONE
+highlight clear SignColumn
+
 

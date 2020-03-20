@@ -116,6 +116,11 @@ autocmd BufNewFile,BufRead *.ts set filetype=typescript
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
 au BufNewFile,BufRead *.ejs set filetype=html
 
+""""""""""""""""""""""""""""
+" => vim-gitgutter
+"""""""""""""""""""""""""""""
+map <leader>gt :GitGutterLineHighlightsToggle<cr>
+
 
 """"""""""""""""""""""""""""
 " => auto pairs
