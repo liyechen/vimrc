@@ -79,14 +79,14 @@ set clipboard=unnamedplus
 
 let mapleader = ","
 
-nnoremap <C-m> <C-]>
+" nnoremap <C-m> <C-]>
 
 " Useful mappings for managing tabs
 map <leader>o :tabnew<cr>
 map <leader>p :tabonly<cr>
 map <leader>m :tabmove
-map <C-[> :tabp<cr>
-map <C-]> :tabn<cr>
+" map <C-[> :tabp<cr>
+" map <C-]> :tabn<cr>
 
 set mouse=a
 
@@ -98,4 +98,6 @@ set updatetime=800
 hi Normal guibg=NONE ctermbg=NONE
 highlight clear SignColumn
 
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 
