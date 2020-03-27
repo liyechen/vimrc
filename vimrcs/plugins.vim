@@ -126,3 +126,12 @@ map <leader>gt :GitGutterLineHighlightsToggle<cr>
 " => auto pairs
 """""""""""""""""""""""""""""
 let g:AutoPairsMultilineClose = 0
+
+""""""""""""""""""""""""""""
+" => vim-livedown
+"""""""""""""""""""""""""""""
+let g:livedown_autorun = 0
+let g:livedown_open = 0
+let g:livedown_port = 1337
+let g:livedown_browser = "chrome"
+map <leader>mp :LivedownToggle<cr>

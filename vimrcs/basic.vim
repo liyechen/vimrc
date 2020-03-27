@@ -34,6 +34,9 @@ Plug 'rust-lang/rust.vim'
 Plug 'jparise/vim-graphql'
 Plug 'ryanoasis/vim-devicons'
 
+" markdown preview
+Plug 'shime/vim-livedown'
+
 call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
