@@ -135,3 +135,10 @@ let g:livedown_open = 0
 let g:livedown_port = 1337
 let g:livedown_browser = "chrome"
 map <leader>mp :LivedownToggle<cr>
+
+""""""""""""""""""""""""""""
+" => onedark
+"""""""""""""""""""""""""""""
+let g:onedark_terminal_italics = 1
+let g:airline_theme='onedark'
+

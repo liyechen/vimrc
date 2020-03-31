@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'joshdick/onedark.vim'
 
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
@@ -41,7 +42,7 @@ call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
 set background=dark
-colorscheme gruvbox
+colorscheme onedark
 set t_Co=256
 set encoding=utf8
 set fileencodings=utf8
