@@ -38,6 +38,9 @@ Plug 'ryanoasis/vim-devicons'
 " markdown preview
 Plug 'shime/vim-livedown'
 
+" " leetcode
+" Plug 'ianding1/leetcode.vim'
+
 call plug#end()
 
 let g:gruvbox_contrast_dark='hard'
@@ -89,8 +92,9 @@ let mapleader = ","
 map <leader>o :tabnew<cr>
 map <leader>p :tabonly<cr>
 map <leader>m :tabmove
-" map <C-[> :tabp<cr>
-" map <C-]> :tabn<cr>
+
+" map <C-9> :tabp<cr>
+" map <C-0> :tabn<cr>
 
 set mouse=a
 

@@ -142,3 +142,8 @@ map <leader>mp :LivedownToggle<cr>
 let g:onedark_terminal_italics = 1
 let g:airline_theme='onedark'
 
+" """"""""""""""""""""""""""""
+" " => leetcode
+" """""""""""""""""""""""""""""
+" let g:leetcode_browser = 'chrome'
+
