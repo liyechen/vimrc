@@ -106,6 +106,8 @@ inoremap <silent><expr> <Tab>
       \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
 
+map <C-]> :call CocAction('jumpDefinition')<CR>
+
 let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-java', 'coc-rls', 'coc-snippets', 'coc-python']
 
 """"""""""""""""""""""""""""
