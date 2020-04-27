@@ -93,8 +93,8 @@ map <leader>o :tabnew<cr>
 map <leader>p :tabonly<cr>
 map <leader>m :tabmove
 
-map <C-z> :tabp<cr>
-map <C-x> :tabn<cr>
+map <C-n> :tabp<cr>
+map <C-m> :tabn<cr>
 
 set mouse=a
 
