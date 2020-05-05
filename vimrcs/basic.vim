@@ -95,6 +95,8 @@ map <leader>m :tabmove
 
 map <C-n> :tabp<cr>
 map <C-m> :tabn<cr>
+map <C-q> :bprevious<cr>
+map <C-e> :bnext<cr>
 
 set mouse=a
 
